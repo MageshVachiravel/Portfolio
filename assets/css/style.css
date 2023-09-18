@@ -266,3 +266,54 @@ section.hero-section{
     background-color: #14171c;
 }
 
+.contact-section{
+    background-color: var(--light-primary);
+    padding:40px;
+    color:white;
+    text-align: center;
+}
+
+.contact-section h4{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 600;
+
+}
+
+.contact-section h4 span{
+    color:var(--primary);
+}
+
+.contact-section form div > input,textarea{
+    padding: 5px 10px;
+    outline: none;
+    width:350px;
+    border:none;
+    background: #c4c4c4;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.btn-send{
+    color:black;
+    background: var(--primary);
+    border:none;
+    padding:10px 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;  
+}
+
+footer{
+    background-color: var(--dark-primary);
+    color:grey;
+    padding:20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--primary);
+}
