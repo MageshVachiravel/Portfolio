@@ -318,3 +318,47 @@ footer a{
     text-decoration: none;
     color:var(--primary);
 }
+
+/* media queries */
+
+@media only screen and (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+
+    header > * {
+        margin-bottom: 10px;
+    }
+
+    /* hero-section */
+
+    section.hero-section{
+        flex-direction: column;
+        padding:40px;
+    
+    }
+
+    /* about-section */
+
+    .about-section{
+        flex-direction: column;
+    }
+
+    .about-section_desc{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    /* my works */
+
+    .work-section-items{
+        flex-direction: column;
+    }
+
+    .work-section-box{
+        margin-top:15px;
+        width: 100%;
+    }
+
+    
+}
