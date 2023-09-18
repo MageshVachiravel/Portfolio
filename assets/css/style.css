@@ -203,3 +203,66 @@ section.hero-section{
     margin-bottom:8px;
 }
 
+.work-section{
+    background-color: var(--dark-primary);
+    color: white;
+    padding:60px;
+    text-align: center;
+}
+
+.work-section-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.work-section-title>span{
+    color: var(--primary);
+}
+
+.work-section-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-section p {
+    padding:5px 0;
+}
+
+.work-section-box{
+    background-color: var(--light-primary);
+    padding:20px 30px;
+    max-width:300px;
+    text-align: left;
+    border-radius:3px;
+}
+
+.work-section-box > p{
+    color:grey;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.work-section-box a{
+    text-decoration: none;
+    color:var(--primary);
+    font-size: 13px;
+    display: block;
+    margin-top: 10px;
+}
+
+.work-section-box-icons{
+    background: var(--primary);
+    width:40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.work-section-box:hover{
+    background-color: #14171c;
+}
+
