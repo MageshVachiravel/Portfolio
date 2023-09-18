@@ -3,6 +3,7 @@
  :root{
     --dark-primary: #1b1f24;
     --primary: #12bdff;
+    --light-primary: #22282f;
  }
 
 *{
@@ -125,6 +126,7 @@ section.hero-section{
 .btn-primary{
     color:black;
     background: var(--primary);
+    border:none;
 }
 
 .btn-primary:hover{
@@ -143,4 +145,61 @@ section.hero-section{
     color:white;
 }
 
+.btn-know{
+    color:black;
+    background: var(--primary);
+    border:none;
+    padding:10px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.about-section{
+    display: flex;
+    background-color: var(--light-primary);
+    color:white;
+    padding:60px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border:3px solid var(--primary);
+    box-shadow: 5px 5px 20px var(--primary);
+}
+
+.about-section_desc{
+    margin-left: 100px;
+    max-width: 450px;
+}
+
+.about-section_desc h4{
+    font-size:34px;
+    font-weight: 700;
+}
+
+.about-section_desc  li {
+    color: grey;
+}
+
+.about-section_desc li > strong{
+    color:white;
+}
+
+.about-section_desc h4 > span {
+    color: var(--primary);
+}
+
+.about-section_desc ul{
+    list-style: none;
+    margin:10px 0;
+}
+
+.about-section_desc li{
+    margin-bottom:8px;
+}
 
