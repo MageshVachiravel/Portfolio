@@ -1,6 +1,5 @@
-# Responsive Portfolio
+# **Responsive Portfolio**
 
-![Project Preview](link-to-your-project-image.png)
 
 A responsive portfolio website built using HTML and CSS.
 
