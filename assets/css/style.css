@@ -156,6 +156,8 @@ section.hero-section{
     border-radius: 3px;
 }
 
+
+
 .about-section{
     display: flex;
     background-color: var(--light-primary);
@@ -281,7 +283,7 @@ section.hero-section{
     border-radius: 5px;
 }
 
-.project-section .work-section-items{
+.project-section {
     justify-content: space-evenly;
 }
 
@@ -378,12 +380,16 @@ footer a{
 
     /* my works */
 
+
+    
     .work-section-items{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .work-section-box{
-        margin-top:15px;
+        margin-top:20px;
         width: 100%;
     }
 
