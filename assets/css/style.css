@@ -114,7 +114,7 @@ section.hero-section{
     margin-top: 20px;
 }
 
-.hero-section_btn > button{
+.hero-section_btn > a{
     padding:8px 20px;
     border-radius:2px;
     border:none;
@@ -122,6 +122,7 @@ section.hero-section{
     border:2px solid var(--primary);
     font-weight: 500;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .btn-primary{
@@ -143,7 +144,7 @@ section.hero-section{
 
 .btn-secondary:hover{
     background-color: var(--primary);
-    color:white;
+    color:black;
 }
 
 .btn-know{
@@ -231,6 +232,13 @@ section.hero-section{
 
 .work-section p {
     padding:5px 0;
+}
+
+.work-section-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:30px;
 }
 
 .work-section-box{
